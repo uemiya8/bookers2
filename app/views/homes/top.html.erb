@@ -1,0 +1,21 @@
+<h1>welcome to <i class="fas fa-book"></i>Bookers!!</h1>
+
+<p>in <i class="fas fa-book"></i>Bookers,</p>
+
+<p>you can share and exchange your opinions , inpressions,<br>  and emotions<br><br>
+
+about various books!</p>
+
+<ul>
+    <li>
+     <%= link_to new_user_session_path,class: 'nav-link text-light' do %>
+      <i class="fas fa-sign-in-alt"></i> Log in
+     <% end %>
+     </li>
+     
+     <li>
+     <%= link_to new_user_registration_path,class: 'nav-link text-light' do %>
+      <i class="fas fa-user-plus"></i> Sign up
+     <% end %>
+     </li>
+</ul>
