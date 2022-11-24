@@ -1,2 +1,85 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+ <!--<div class="row">-->
+ <!--<div class="col-md-3">-->
+ <!--<h2>User info</h2>-->
+ <!--<p><%#= image_tag @user.get_profile_image(100,100) %></p>-->
+ <!-- <table>-->
+ <!--  <tbody>-->
+ <!--   <tr></tr>-->
+ <!--  <tr>-->
+	<!--  <th>name</th>-->
+	<!--  <th><%#=@user.name %></th>-->
+ <!--  </tr>-->
+ <!--  <tr>-->
+	<!--  <th>introduction</th>-->
+	<!--  <th><%#=@user.introduction %></th>-->
+ <!--  </tr>-->
+ <!--  </tbody>-->
+ <!--  </table>-->
+ <!--<div class="row">-->
+ <!--<%#=link_to edit_book_path(current_user),class: 'btn btn-outline-secondary btn-block' do %>-->
+ <!-- <i= class="fas fa-users-cog"></i>-->
+ <!--<%# end %>-->
+ <!--</div>-->
+ 
+ 
+
+ <!--<h1>New book</h1>-->
+ <!-- <%#= form_with model: @book do |f| %>-->
+ <!--<h4>Title</h4>-->
+ <!-- <%#= f.text_field :title %>-->
+
+ <!--<h4>Opinion</h4>-->
+ <!-- <%#= f.text_area :body %>-->
+
+ <!-- <%#= f.submit 'Create Book' %>-->
+ <!--<%# end %>-->
+ <!--</div>-->
+ 
+ <div class="row">
+ <%= render 'users/book', book: @books, user: @user %>
+
+ <div class = "col-md-8" "offset-md-1">
+     
+ <h2>Book detail</h2>
+    
+  <table class="table table-hover table-invrse">
+   <thead>
+    <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th colspan="3"></th>
+    </tr>
+   </thead>
+ 
+  <tbody>
+   <tr>
+    <th></th>
+    <th><p><%= link_to user_path(@book.user) do %>
+    <%= image_tag @book.user.get_profile_image(100,100) %><br>
+    <%= @book.user.name %>
+    <% end %></p></th>
+    <th><span><%= link_to book_path(@book) do %>
+    <%= @book.title %><% end %></span></th>
+    
+    
+    <th><span><%= @book.body %></span></th>
+    
+    
+    
+    <th><% if @book.user ==current_user %>
+     <%= link_to "Edit", edit_book_path(@book), class: "btn btn-sn btn-success" %>
+     <% end %>
+    </th>
+    
+    <th><% if @book.user == current_user %>
+     <%= link_to "Destroy", book_path(@book), class: "btn btn-sm btn-danger", method: :delete, "data-confirm" => "本当に消しますか？" %>
+     <% end %>
+    </th>
+    
+   </tr>
+  </tbody>
+ </table>
+    
+</div>
+</div>
