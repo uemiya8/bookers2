@@ -1,0 +1,483 @@
+    1  git clone git@github.com:uemiya8/bookers.git
+    2  ssh-keygen
+    3  cat ~/.ssh/id_rsa.pub
+    4   ssh -T git@github.com
+    5  git clone git@github.com:uemiya8/bookers.git
+    6  bundle install
+    7  cd bookers app
+    8  bundle install
+    9   rails db:migrate RAILS_ENV=test
+   10  bundle exec rspec spec/ --format documentation
+   11  rails db:migrate RAILS_ENV=test
+   12   bundle exec rspec spec/ --format documentation
+   13  bundle install
+   14   rails db:migrate RAILS_ENV=test
+   15  bundle exec rspec spec/ --format documentation
+   16  rails s
+   17  cd bookers app
+   18  rails s
+   19  killall ruby
+   20  rails s
+   21  rails db:migrate RAILS_ENV=development
+   22  rails s
+   23  rails db:migrate RAILS_ENV=development
+   24  rails s
+   25  railsns
+   26  rails s
+   27  rails g model Book
+   28  rails db:migrate
+   29  rails s
+   30  rails webpacker:install
+   31  yarn -v
+   32  yarn install
+   33  npm install -g yarn
+   34  yarn -v
+   35  rails webpacker:install
+   36  rails s
+   37  rails 
+   38  rails s
+   39  rails routes
+   40  rails s
+   41  rarls s
+   42  rails s
+   43  rails routes
+   44  rails s
+   45  git add .
+   46  git commit -m "second"
+   47  git push origin main
+   48  cd books app
+   49  cd bookers app
+   50  rails routes
+   51  rails s
+   52  rails routes
+   53  rails s
+   54  rails routes
+   55  rails s
+   56  rails routes
+   57  rails s
+   58  rails routes
+   59  rails s
+   60  get 'books/edit'
+   61  rails s
+   62  rails routes
+   63  rails s
+   64  rails routes
+   65  rails s
+   66  rails routes
+   67  rails s
+   68  rails routes
+   69  rails s
+   70  git add
+   71  git add .
+   72  git commit -m "secomd"
+   73  git push origin main
+   74  cd bookers app
+   75  rails s
+   76  rails 
+   77  rails s
+   78  rils s
+   79  rails s
+   80   rails db:migrate RAILS_ENV=test
+   81   bundle exec rspec spec/ --format documentation
+   82  rails routes
+   83  rails s
+   84   bundle exec rspec spec/ --format documentation
+   85  rails s
+   86   bundle exec rspec spec/ --format documentation
+   87  rails s
+   88   bundle exec rspec spec/ --format documentation
+   89  rails s
+   90   bundle exec rspec spec/ --format documentation
+   91  rails s
+   92   bundle exec rspec spec/ --format documentation
+   93  rails s
+   94   bundle exec rspec spec/ --format documentation
+   95  rails s
+   96   bundle exec rspec spec/ --format documentation
+   97  rails s
+   98   bundle exec rspec spec/ --format documentation
+   99  bundle install
+  100  rails db:migrate RAILS_ENV=test
+  101  bundle exec rspec spec/ --format documentation
+  102  git add .
+  103  git commit -m "third"
+  104  git push origin main
+  105  cd bookres app
+  106  cd bookers app
+  107  bundle exec rspec spec/ --format documentation
+  108  rails s
+  109  bundle exec rspec spec/ --format documentation
+  110  rails s
+  111  bundle exec rspec spec/ --format documentation
+  112  rails s
+  113  bundle exec rspec spec/ --format documentation
+  114  rails s
+  115  rails routes
+  116  rails s
+  117  bundle exec rspec spec/ --format documentation
+  118  rails s
+  119  rails routes
+  120  rails s
+  121  rails routes
+  122  bundle exec rspec spec/ --format documentation
+  123  rails s
+  124  bundle exec rspec spec/ --format documentation
+  125  git add .
+  126  git commit -m "fourth"
+  127  git push origin main
+  128  bundle exec rspec spec/ --format documentation
+  129  rails s
+  130  cd bookers app
+  131  rails -v
+  132  rvm list
+  133  rvm get stable
+  134  rvm install 3.1.2
+  135  rvm --default use 3.1.2
+  136   rvm list
+  137  rails s
+  138  rauls s
+  139  rails s
+  140  rails -v
+  141  rails s
+  142  rails routes
+  143  wget https://wals.s3.ap-northeast-1.amazonaws.com/curriculum/rails/environment.sh 
+  144  sh environment.sh
+  145  rails -v
+  146  bundle install
+  147  rails -v
+  148  rails s
+  149  rails routes
+  150  rails s
+  151  git add /
+  152  git add .
+  153  git commit -m "Fifth"
+  154  git push origin main
+  155  rails s
+  156  rails new meshiterro
+  157  rails s
+  158  rails new meshiterro
+  159  gem 'selenium-webdriver
+  160  -v '4.0.0'--source
+  161  'https://rubygems.org/'
+  162  -v '4.0.0' --source 'https://rubygems.org/'
+  163  rails　s
+  164  rails new meshiterro
+  165  cd meshiterro
+  166  rails new meshiterro
+  167  rails s
+  168  bundle install
+  169  rails s
+  170  rails webpacker:install
+  171  rails s
+  172  rails g controller homes top
+  173  rails s
+  174  rails active_storage:install
+  175  rails db:migrate
+  176  rails active_storage:install
+  177  bundle install
+  178  rails active_storage:install
+  179  rails db:migrate:status
+  180  rails db:rollback
+  181  rails active_storage:install
+  182  rails db:migrate:status
+  183  rails db:migrate
+  184  bundle install
+  185  rails s
+  186  cd meshiterro app
+  187  bundle install
+  188  rails g devise:install
+  189  rails g devise User
+  190  rails db:migrate
+  191  rails s
+  192  rails g devise:views
+  193  rails s
+  194  get
+  195  rails s
+  196  cd meshitero app
+  197  cd meshiterroapp
+  198  cd meshiterro app
+  199  rails s
+  200  cd meshiterro app
+  201  rails s
+  202  rails routes
+  203  rails s
+  204  rails routes
+  205  rails s
+  206  rails routes
+  207  rails s
+  208  rails g model Postlmage
+  209  rails db:migrate
+  210  rails db:migrate:status
+  211  rails db:rollback
+  212  rails destroy model Postlmage
+  213  rails db:migrate:status
+  214  rails g model PostImage
+  215  rails db:migrate
+  216  rails g controller PostImages 
+  217  rails routes
+  218  rails s
+  219  cd meshiterro app
+  220  rails s
+  221  rails routes
+  222  cd meshiterro app
+  223  rails s
+  224  rails routes
+  225  rails s
+  226  rails routes
+  227  rails s
+  228  rails routes
+  229  rails s
+  230  rails routes
+  231  rails s
+  232  rails routes
+  233  rails s
+  234  rails routes
+  235  rails s
+  236  rails routes
+  237  rails s
+  238  rails routes
+  239  rails s
+  240  rails c
+  241  clear
+  242  rails s
+  243  cd meshiterro app
+  244  rails g controller users show
+  245  rails 
+  246  rails s
+  247  rails routes
+  248  rails s
+  249  rails routes
+  250  rails s
+  251  rails routes
+  252  rails s
+  253  rails routes
+  254  rails s
+  255  rails routes
+  256  rails s
+  257  cd meshiterro
+  258  cd meshiterro app
+  259  cd meshiterro
+  260  cd meshiterro app
+  261  rails s
+  262  rails g model PostComment
+  263  rails g model PostComment comment:text user_id:integer post_image_id:integer
+  264  rails db:migrate
+  265  rails g controller post_comments
+  266  rails s
+  267  cd meshiterro app
+  268  rails s
+  269  rails g model Favorite user_id:integer post_image_id:integer
+  270  rails db:migrate
+  271  rails routes
+  272  rails g controller favorites
+  273  rails s
+  274  bundle install
+  275  rails g kaminari:config
+  276  rails g kaminari:views default
+  277  rails s
+  278  cd meshiterro app
+  279  rails s
+  280  bundle install
+  281  rails s
+  282  bundle install
+  283  rails g kaminari:config
+  284  rails g kaminari:views default
+  285  rails s
+  286  rails g kaminari:views default
+  287  rails s
+  288  cd bootstrap_template-main app
+  289  cd bootstrp app
+  290  cd bootstrap_template-main app
+  291  bundle install
+  292  yarn install
+  293  rails db:migrate
+  294  rails s
+  295  yarn add jquery bootstrap@4.5 popper.js
+  296  yarn add @fortawesome/fontawesome-free@5.15.4
+  297  rails s
+  298  rails new bookers2
+  299  bundle install
+  300  cd bookers2
+  301  bundle install
+  302  rails g devise:install
+  303  rails g devise User
+  304  rails db:migrate
+  305  rails g devise:views
+  306  rails s
+  307  rails g new book
+  308  rails g model Book
+  309  rails s
+  310  rails db:migrate
+  311  rails g contoller homes top
+  312  rails g controller homes top
+  313  rails s
+  314  rails g controller books update index show edit
+  315  rails s
+  316  rails g controller users show edit
+  317  rails s
+  318  bundle install
+  319  rails s
+  320  yarn add jquery bootstrap@4.5 popper.js
+  321  yarn add @fortawesome/fontawesome-free@5.15.4
+  322  rails s
+  323  rails routes
+  324  rails g devise:views
+  325  rails s
+  326  rails routes
+  327  rails s
+  328  cd bookers2 app
+  329  rails s
+  330  rails routes
+  331  rails s
+  332  rails routes
+  333  rails s
+  334  rails routes
+  335  rails s
+  336  rails routes
+  337  rails s
+  338  rails routes
+  339  rails s
+  340  rails routes
+  341  rails s
+  342  git init
+  343  git add .
+  344  git comment -m "first"
+  345  git remote add origin git@github.com:uemiya8/bookers2.git
+  346  git branch -M main
+  347  git push origin main
+  348  git remote -v
+  349  git push origin main
+  350  cd bookers2 app
+  351  git remote -v
+  352  git push origin main
+  353  git status
+  354  git add .
+  355  git commit -m "first"
+  356  git push origin main
+  357  git status
+  358  rails s
+  359  cd bookers2 app
+  360  rails s
+  361  rails routes
+  362  rails s
+  363  rails active_storage:install
+  364  rails db:migrate
+  365  rails s
+  366  cd bookers2 app
+  367  rails s
+  368  rails g migration AddintroductionToUsers name:string
+  369  rails db:migrate
+  370  bundle install
+  371  rails g migration AddintroductionToUsers name:string
+  372  rails db:migrate
+  373  rails s
+  374  rails g migration AddintroductionToUsers introduction:string
+  375  rails db:migrate
+  376  rails db:migrate:status
+  377  rails g migration AddIntroductionToUsers introduction:string
+  378  rails db:migrate:status
+  379  rails db:migrate
+  380  rails db:migrate:status
+  381  rails s
+  382  bundle install
+  383  rails s
+  384  rails routes
+  385  rails s
+  386  cd bookers2 app
+  387  rails s
+  388  rails routes
+  389  rails s
+  390  rails routes
+  391  rails s
+  392  rails g migration AddTitleToBooks name:string
+  393  rails g migration AddTitleToBooks title:string
+  394  rails db:migrate
+  395  rails g migration AddBodyToBooks body:text
+  396  rails db:migrate
+  397  rails 
+  398  rails s
+  399  rails g migration AddUserIdToBooks user_id:integer
+  400  rails db:migrate
+  401  rail s
+  402  rails s
+  403  cd bookers2 app
+  404  rails s
+  405  rails routes
+  406  rails s
+  407  cd bookres app
+  408  cd bookers2 app
+  409  rails s
+  410  rails routes
+  411  ook GET    /books/:id(.:format)                                                                              books#showow
+  412  rails routes
+  413  ook GET    /books/:id(.:format)                                                                              books#showow
+  414  rails s
+  415  rails routes
+  416  rails s
+  417  rails routes
+  418  rails s
+  419  rails routes
+  420  rails s
+  421  rails routes
+  422  rails s
+  423  cd bookers2 app
+  424  rails s
+  425  rails routes
+  426  rails s
+  427  rails routes
+  428  cd bookers2 app
+  429  rails s
+  430  cd bookers2 app
+  431  rails s
+  432  rails routes
+  433  rails s
+  434  cd bookers2 app
+  435  rails s
+  436  db:migrate:status
+  437  rails s
+  438  rails routes
+  439  rails s
+  440  rails routes
+  441  rails s
+  442  git add .
+  443  git commit -m "Second"
+  444  git push origin main
+  445  cd bookers2 app
+  446  rails s
+  447  rails routes
+  448  rails s
+  449  bundle install
+  450  rails db:migrate RAILS_ENV=test
+  451  bundle exec rspec spec/ --format documentation
+  452  bundle exec rspec spec/ --format documentation -o rspec.log
+  453   bundle install
+  454  rails db:migrate RAILS_ENV=test
+  455  bundle exec rspec spec/ --format documentation
+  456   bundle install
+  457  rails db:migrate RAILS_ENV=test
+  458  bundle exec rspec spec/ --format documentation
+  459  rails db:migrate RAILS_ENV=test
+  460  bundle exec rspec spec/ --format documentation
+  461  rails db:migrate RAILS_ENV=test
+  462  bundle exec rspec spec/ --format documentation
+  463  rails s
+  464  bundle exec rspec spec/ --format documentation
+  465  rails s
+  466  rails routes
+  467  rails s
+  468  rails routes
+  469  rails s
+  470  bundle exec rspec spec/ --format documentation
+  471  rails s
+  472  rails g migration RemoveTitleFromBooks Title:string
+  473  rails db:migrate
+  474  rails g migration AddTitleToBooks title:string
+  475  rails db:migrate
+  476   bundle exec rspec spec/ --format documentation
+  477  rails db:migrate RAILS_ENV=test
+  478   bundle exec rspec spec/ --format documentation
+  479  rails db:migrate RAILS_ENV=test
+  480  histori
+  481  history
+  482  touch tmp.txt
+  483  history > tmp.txt
