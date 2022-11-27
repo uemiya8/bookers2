@@ -1,78 +1,46 @@
- <!--<div class="row">-->
- <!--<div class="col-md-3">-->
- <!--<h2>User info</h2>-->
- <!--<p><%#= image_tag @user.get_profile_image(100,100) %></p>-->
- <!-- <table>-->
- <!--  <tbody>-->
- <!--   <tr></tr>-->
- <!--  <tr>-->
-	<!--  <th>name</th>-->
-	<!--  <th><%# = @user.name %></th>-->
- <!--  </tr>-->
- <!--  <tr>-->
-	<!--  <th>introduction</th>-->
-	<!--  <th><%# = @user.introduction %></th>-->
- <!--  </tr>-->
- <!--  </tbody>-->
- <!--  </table>-->
- <!--<div class="row">-->
- <!--<%# = link_to edit_book_path(current_user),class: 'btn btn-outline-secondary btn-block' do %>-->
- <!-- <i= class="fas fa-users-cog"></i>-->
- <!--<%# end %>-->
- <!--</div>-->
-
- <!--<h1>New book</h1>-->
- <!-- <%#= form_with model: @book do |f| %>-->
- <!--<h4>Title</h4>-->
- <!-- <%#= f.text_field :title %>-->
-
- <!--<h4>Opinion</h4>-->
- <!-- <%#= f.text_area :body %>-->
-
- <!-- <%#= f.submit 'Create Book' %>-->
- <!--<%# end %>-->
- <!--</div>-->
- <div class="row">
-  <%= render 'users/book', book: @book, user: @user %>
-
- <div class = "col-md-8" "offset-md-1">
-    
- <h2>Books</h2>
- <% if @book.errors.any? %>
-   <%= @book.errors.count %>件のエラーが発生しました
-  <ul>
-    <% @book.errors.full_messages.each do |message| %>
-      <li><%= message %></li>
-    <% end %>
-  </ul>
-<% end %>
-    
-  <table class="table table-hover table-invrse">
-   <thead>
-    <tr>
-     <th></th>
-     <th>Title</th>
-     <th>Opinion</th>
-     <th colspan="3"></th>
-    </tr>
-   </thead>
- 
-  <tbody>
-   <% @books.each do |book| %>
-   <tr>
-    <th></th>
-    <th><p><%= link_to user_path(book.user) do %>
-     <%= image_tag book.user.get_profile_image(100,100) %>
-     <% end %></p></th>
-    <th><span><%= link_to book_path(book) do %>
+<div class="container px-5 px-sm-0">
+  <div class="row">
+   <div class="col-md-3">
+    <%= render 'users/book', book: @book, user: @user %>
+  </div>
+  <div class="col-md-8 offset-md-1">
+    <h2>Books</h2>
+    <% if @book.errors.any? %>
+      <%= @book.errors.count %>件のエラーが発生しました
+        <ul>
+          <% @book.errors.full_messages.each do |message| %>
+            <li>
+              <%= message %>
+            </li>
+            <% end %>
+        </ul>
+        <% end %>
+          <table class="table table-hover table-invrse">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Title</th>
+                <th>Opinion</th>
+                <th colspan="3"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% @books.each do |book| %>
+                <tr>
+                  <th></th>
+                  <th>
+                    <p>
+                      <%= link_to user_path(book.user) do %>
+                        <%= image_tag book.user.get_profile_image(100,100) %>
+                          <% end %>
+                    </p>
+                  </th>
+                  <th><span><%= link_to book_path(book) do %>
      <%= book.title %><% end %></span></th>
-    
-    <th><span><%= book.body %></span></th>
-    
-   </tr>
-  <% end %>
-  </tbody>
- </table>
- 
- </div>
- </div>
+                  <th><span><%= book.body %></span></th>
+                </tr>
+                <% end %>
+            </tbody>
+          </table>
+  </div>
+</div>

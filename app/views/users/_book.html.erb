@@ -1,4 +1,3 @@
-<div class="col-md-3">
  <h2>User info</h2>
  <p><%= image_tag user.get_profile_image(100,100) %></p>
  <table>
@@ -15,8 +14,8 @@
   </tbody>
  </table>
 <div class="row">
- <%=link_to edit_user_path(current_user),class: 'btn btn-outline-secondary btn-block' do %>
-  <i= class="fas fa-users-cog"></i>
+ <%=link_to edit_user_path(user),class: 'btn btn-outline-secondary btn-block' do %>
+  <i class="fas fa-user-cog"></i>
  <% end %>
 </div>
 
@@ -30,4 +29,3 @@
 
   <%= f.submit 'Create Book' %>
 <% end %>
-</div>
